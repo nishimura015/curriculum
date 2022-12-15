@@ -1,0 +1,95 @@
+/*******************/
+/* DIV Puzzle2     */
+/*******************/
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.wrapper {
+  width: 1024px;
+  margin: 0 auto;         /* wrapperクラスを上下0：中央寄せ */
+}
+
+/** header **/
+.header {
+  width: 400px;
+  height: 100px;
+  background-color: #141f40;
+}
+
+/** contents **/
+.contents {
+  width: 400px;
+  height: 250px;
+}
+
+/** contents_left **/
+.left {
+  float: left;
+  width: 150px;
+  height: 250px;
+  background-color: #80bfa8;
+}
+
+/** contents_right **/
+.right {
+  float: right;
+  width: 250px;
+  height: 250px;
+}
+
+.right-upper {
+  float: right;
+  width: 250px;
+  height: 150px;
+  background-color: red;
+}
+
+.right-upper-L {
+  float: left;
+  width: 150px;
+  height: 150px;
+}
+
+.right-upper-L1 {
+  float: left;
+  width: 150px;
+  height: 50px;
+  background-color: #dbd400;
+}
+
+.right-upper-L2 {
+  float: left;
+  width: 150px;
+  height: 100px;
+  background-color: #0093b7;
+}
+
+.right-upper-R {
+  float: right;
+  width: 100px;
+  height: 150px;
+  background-color: #ff9e6b;
+}
+
+.right-lower {
+  float: right;
+  width: 250px;
+  height: 100px;
+  background-color: #8c2727;
+}
+
+/** footer **/
+.footer {
+  width: 400px;
+  height: 100px;
+  background-color: #d98d30;
+}
+
+/* reset.css*/
+* {
+  margin: 0;
+  padding: 0;
+}

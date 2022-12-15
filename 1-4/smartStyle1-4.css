@@ -1,0 +1,109 @@
+/********************************/
+/* DIV Puzzle2 レスポンシブ対応 */
+/********************************/
+/* ウィンドウ幅が最大767pxまでの場合に適用(スマホ用) */
+@media screen and (max-width: 767px) {
+
+  .header {
+    width: 300px;
+  }
+
+  .contents {
+    width: 300px;
+  }
+
+  .left {
+    width: 100px;
+  }
+
+  .right {
+    width: 200px;
+  }
+
+  .right-upper {
+    width: 200px;
+  }
+
+  .right-upper-L {
+    width: 125px;
+  }
+
+  .right-upper-L1 {
+    width: 125px;
+  }
+
+  .right-upper-L2 {
+    width: 125px;
+  }
+
+  .right-upper-R {
+    width: 75px;
+  }
+
+  .right-lower {
+    width: 200px;
+  }
+
+  .footer {
+    width: 300px;
+  }
+}
+
+
+/*ウィンドウ幅が最大479pxまでの場合に適用(タブレット用)*/
+@media screen and (max-width: 479px) {
+
+  .header {
+    width: 150px;
+  }
+
+  .contents {
+    width: 150px;
+    height: 650px;
+  }
+
+  .left {
+    float: none;       /* 要素の浮動化の解除 */
+    width: 150px;
+  }
+
+  .right {
+    float: none;       /* 要素の浮動化の解除 */
+    width: 150px;
+  }
+
+  .right-upper {
+    float: none;       /* 要素の浮動化の解除 */
+    width: 150px;
+    height: 300px;
+  }
+
+  .right-upper-R {
+    float: none;       /* 要素の浮動化の解除 */
+    width: 150px;
+  }
+
+  .right-upper-L {
+    float: none;       /* 要素の浮動化の解除 */
+    width: 150px;
+  }
+
+  .right-upper-L1 {
+    float: none;       /* 要素の浮動化の解除 */
+    width: 150px;
+  }
+
+  .right-upper-L2 {
+    float: none;       /* 要素の浮動化の解除 */
+    width: 150px;
+  }
+
+  .right-lower {
+    float: none;       /* 要素の浮動化の解除 */
+    width: 150px;
+  }
+
+  .footer {
+    width: 150px;
+  }
+}
